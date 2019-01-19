@@ -1,0 +1,35 @@
+ALS MF configuration 0:
+date    ==> 2018-12-16 11:15:52.237775
+model   ==>  alpha=40; lambda=1.8; latent_factors=5; iterations=2
+metrics ==>  precision=0.020636; recall=0.033980; map=0.013789
+------------------------------------------------
+ALS MF configuration 0:
+date    ==> 2018-12-16 11:18:52.678877
+model   ==>  alpha=40; lambda=1.8; latent_factors=460; iterations=20
+metrics ==>  precision=0.065036; recall=0.131484; map=0.066750
+------------------------------------------------
+ALS MF configuration 0:
+date    ==> 2018-12-16 11:27:03.425355
+model   ==>  alpha=40; lambda=0.1; latent_factors=460; iterations=20
+metrics ==>  precision=0.063963; recall=0.129038; map=0.065548
+------------------------------------------------
+ALS MF configuration 0:
+date    ==> 2018-12-16 11:35:54.803845
+model   ==>  alpha=40; lambda=0.1; latent_factors=50; iterations=20
+metrics ==>  precision=0.056540; recall=0.106265; map=0.050526
+------------------------------------------------
+ALS MF configuration 0:
+date    ==> 2018-12-16 11:39:29.484436
+model   ==>  alpha=40; lambda=10; latent_factors=50; iterations=20
+metrics ==>  precision=0.056998; recall=0.105620; map=0.050030
+------------------------------------------------
+ALS MF configuration 0:
+date    ==> 2018-12-16 11:44:22.350528
+model   ==>  alpha=40; lambda=10; latent_factors=350; iterations=20
+metrics ==>  precision=0.069094; recall=0.136396; map=0.068652
+------------------------------------------------
+ALS MF configuration 0:
+date    ==> 2018-12-16 11:53:44.497220
+model   ==>  alpha=40; lambda=10; latent_factors=350; iterations=20
+metrics ==>  precision=0.069193; recall=0.137411; map=0.068056
+------------------------------------------------

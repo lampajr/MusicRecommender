@@ -1,0 +1,138 @@
+SSLIM RMSE configuration 0:
+date    ==> 2018-12-09 12:09:58.648906
+model   ==>  alpha=0.00055; l1_penalty=1.5e-05; l2_penalty=0.0005; l1_ratio=0.029126213592233007; topk=800; positive_only=True
+side    ==>  albums_param=1.0; artists_param=1.0; duration_param=None
+metrics ==>  precision=0.097213; recall=0.204009; map=0.113185
+------------------------------------------------
+SSLIM RMSE configuration 1:
+date    ==> 2018-12-09 12:27:02.569328
+model   ==>  alpha=0.0005; l1_penalty=1.5e-05; l2_penalty=0.0005; l1_ratio=0.029126213592233007; topk=800; positive_only=True
+side    ==>  albums_param=1.0; artists_param=1.0; duration_param=None
+metrics ==>  precision=0.097429; recall=0.204728; map=0.113595
+------------------------------------------------
+SSLIM RMSE configuration 2:
+date    ==> 2018-12-09 12:46:21.548077
+model   ==>  alpha=0.00045; l1_penalty=1.5e-05; l2_penalty=0.0005; l1_ratio=0.029126213592233007; topk=800; positive_only=True
+side    ==>  albums_param=1.0; artists_param=1.0; duration_param=None
+metrics ==>  precision=0.097619; recall=0.205278; map=0.114038
+------------------------------------------------
+SSLIM RMSE configuration 3:
+date    ==> 2018-12-09 13:06:51.090217
+model   ==>  alpha=0.0004; l1_penalty=1.5e-05; l2_penalty=0.0005; l1_ratio=0.029126213592233007; topk=800; positive_only=True
+side    ==>  albums_param=1.0; artists_param=1.0; duration_param=None
+metrics ==>  precision=0.097752; recall=0.205590; map=0.114356
+------------------------------------------------
+SSLIM RMSE configuration 0:
+date    ==> 2018-12-09 13:54:47.072257
+model   ==>  alpha=0.0005; l1_penalty=0.000015; l2_penalty=0.000500; l1_ratio=0.029126; topk=800; positive_only=True
+side    ==>  albums_param=1.0; artists_param=1.0; duration_param=None
+metrics ==>  precision=0.097964; recall=0.205574; map=0.114035
+------------------------------------------------
+SSLIM RMSE configuration 1:
+date    ==> 2018-12-09 14:10:14.425226
+model   ==>  alpha=0.00045; l1_penalty=0.000015; l2_penalty=0.000500; l1_ratio=0.029126; topk=800; positive_only=True
+side    ==>  albums_param=1.0; artists_param=1.0; duration_param=None
+metrics ==>  precision=0.098158; recall=0.206226; map=0.114443
+------------------------------------------------
+SSLIM RMSE configuration 2:
+date    ==> 2018-12-09 14:25:47.393185
+model   ==>  alpha=0.00042; l1_penalty=0.000015; l2_penalty=0.000500; l1_ratio=0.029126; topk=800; positive_only=True
+side    ==>  albums_param=1.0; artists_param=1.0; duration_param=None
+metrics ==>  precision=0.098192; recall=0.206424; map=0.114564
+------------------------------------------------
+SSLIM RMSE configuration 3:
+date    ==> 2018-12-09 14:41:32.557010
+model   ==>  alpha=0.0004; l1_penalty=0.000015; l2_penalty=0.000500; l1_ratio=0.029126; topk=800; positive_only=True
+side    ==>  albums_param=1.0; artists_param=1.0; duration_param=None
+metrics ==>  precision=0.098240; recall=0.206564; map=0.114637
+------------------------------------------------
+SSLIM RMSE configuration 4:
+date    ==> 2018-12-09 14:57:18.270428
+model   ==>  alpha=0.00038; l1_penalty=0.000015; l2_penalty=0.000500; l1_ratio=0.029126; topk=800; positive_only=True
+side    ==>  albums_param=1.0; artists_param=1.0; duration_param=None
+metrics ==>  precision=0.098317; recall=0.206837; map=0.114791
+------------------------------------------------
+SSLIM RMSE configuration 5:
+date    ==> 2018-12-09 15:13:18.368886
+model   ==>  alpha=0.00035; l1_penalty=0.000015; l2_penalty=0.000500; l1_ratio=0.029126; topk=800; positive_only=True
+side    ==>  albums_param=1.0; artists_param=1.0; duration_param=None
+metrics ==>  precision=0.098444; recall=0.207099; map=0.114988
+------------------------------------------------
+SSLIM RMSE configuration 6:
+date    ==> 2018-12-09 15:29:39.478571
+model   ==>  alpha=0.0003; l1_penalty=0.000015; l2_penalty=0.000500; l1_ratio=0.029126; topk=800; positive_only=True
+side    ==>  albums_param=1.0; artists_param=1.0; duration_param=None
+metrics ==>  precision=0.098527; recall=0.207248; map=0.115227
+------------------------------------------------
+SSLIM RMSE configuration 7:
+date    ==> 2018-12-09 15:46:45.010525
+model   ==>  alpha=0.0002; l1_penalty=0.000015; l2_penalty=0.000500; l1_ratio=0.029126; topk=800; positive_only=True
+side    ==>  albums_param=1.0; artists_param=1.0; duration_param=None
+metrics ==>  precision=0.098202; recall=0.206556; map=0.115408
+------------------------------------------------
+SSLIM RMSE configuration 8:
+date    ==> 2018-12-09 16:06:19.697964
+model   ==>  alpha=0.0001; l1_penalty=0.000015; l2_penalty=0.000500; l1_ratio=0.029126; topk=800; positive_only=True
+side    ==>  albums_param=1.0; artists_param=1.0; duration_param=None
+metrics ==>  precision=0.097288; recall=0.204100; map=0.114572
+------------------------------------------------
+SSLIM RMSE configuration 0:
+date    ==>  2018-12-09 16:35:45.383212
+model   ==>  alpha=0.0002; l1_ratio=0.029126; topk=720; positive_only=True
+side    ==>  albums_param=1.0; artists_param=1.0; duration_param=None
+metrics ==>  precision=0.098188; recall=0.206416; map=0.115383
+------------------------------------------------
+SSLIM RMSE configuration 1:
+date    ==>  2018-12-09 16:54:06.643921
+model   ==>  alpha=0.0002; l1_ratio=0.029126; topk=750; positive_only=True
+side    ==>  albums_param=1.0; artists_param=1.0; duration_param=None
+metrics ==>  precision=0.098202; recall=0.206434; map=0.115399
+------------------------------------------------
+SSLIM RMSE configuration 2:
+date    ==>  2018-12-09 17:12:49.478761
+model   ==>  alpha=0.0002; l1_ratio=0.029126; topk=770; positive_only=True
+side    ==>  albums_param=1.0; artists_param=1.0; duration_param=None
+metrics ==>  precision=0.098206; recall=0.206393; map=0.115399
+------------------------------------------------
+SSLIM RMSE configuration 3:
+date    ==>  2018-12-09 17:36:53.588979
+model   ==>  alpha=0.0002; l1_ratio=0.029126; topk=800; positive_only=True
+side    ==>  albums_param=1.0; artists_param=1.0; duration_param=None
+metrics ==>  precision=0.098263; recall=0.206498; map=0.115425
+------------------------------------------------
+SSLIM RMSE configuration 4:
+date    ==>  2018-12-09 18:01:00.841731
+model   ==>  alpha=0.0002; l1_ratio=0.029126; topk=820; positive_only=True
+side    ==>  albums_param=1.0; artists_param=1.0; duration_param=None
+metrics ==>  precision=0.098275; recall=0.206546; map=0.115425
+------------------------------------------------
+SSLIM RMSE configuration 5:
+date    ==>  2018-12-09 18:28:12.838497
+model   ==>  alpha=0.0002; l1_ratio=0.029126; topk=850; positive_only=True
+side    ==>  albums_param=1.0; artists_param=1.0; duration_param=None
+metrics ==>  precision=0.098273; recall=0.206537; map=0.115442
+------------------------------------------------
+SSLIM RMSE configuration 6:
+date    ==>  2018-12-09 18:56:57.536643
+model   ==>  alpha=0.0002; l1_ratio=0.029126; topk=870; positive_only=True
+side    ==>  albums_param=1.0; artists_param=1.0; duration_param=None
+metrics ==>  precision=0.098283; recall=0.206536; map=0.115443
+------------------------------------------------
+SSLIM RMSE configuration 7:
+date    ==>  2018-12-09 19:20:22.212834
+model   ==>  alpha=0.0002; l1_ratio=0.029126; topk=900; positive_only=True
+side    ==>  albums_param=1.0; artists_param=1.0; duration_param=None
+metrics ==>  precision=0.098269; recall=0.206525; map=0.115457
+------------------------------------------------
+SSLIM RMSE configuration 0:
+date    ==>  2018-12-10 10:35:07.204447
+model   ==>  alpha=0.0002; l1_ratio=0.029126; topk=300; positive_only=True
+side    ==>  albums_param=1.0; artists_param=1.0; duration_param=None
+metrics ==>  precision=0.097021; recall=0.206960; map=0.115435
+------------------------------------------------
+SSLIM RMSE configuration 1:
+date    ==>  2018-12-10 10:52:45.575096
+model   ==>  alpha=0.0002; l1_ratio=0.029126; topk=900; positive_only=True
+side    ==>  albums_param=1.0; artists_param=1.0; duration_param=None
+metrics ==>  precision=0.097482; recall=0.207736; map=0.115812
+------------------------------------------------

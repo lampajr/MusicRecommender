@@ -1,0 +1,633 @@
+HYBRID RECOMMENDER configuration 0:
+date  ==>  2018-12-10 16:09:29.446154
+model :- item-based CF ==> None, - user-based CF ==> 0.1, - cbf ==> 0.9, - sslim-rmse ==> 1.0, - als-mf ==> 0.3
+metrics ==>  precision=0.101647; recall=0.214800; map=0.119798
+------------------------------------------------
+HYBRID RECOMMENDER configuration 1:
+date  ==>  2018-12-10 16:18:05.219931
+model :- item-based CF ==> None, - user-based CF ==> 0.3, - cbf ==> 0.9, - sslim-rmse ==> 1.0, - als-mf ==> 0.3
+metrics ==>  precision=0.099158; recall=0.209575; map=0.116083
+------------------------------------------------
+HYBRID RECOMMENDER configuration 2:
+date  ==>  2018-12-10 16:26:41.956531
+model :- item-based CF ==> None, - user-based CF ==> 0.5, - cbf ==> 0.9, - sslim-rmse ==> 1.0, - als-mf ==> 0.3
+metrics ==>  precision=0.096489; recall=0.204079; map=0.112431
+------------------------------------------------
+HYBRID RECOMMENDER configuration 3:
+date  ==>  2018-12-10 16:35:03.996481
+model :- item-based CF ==> None, - user-based CF ==> 0.8, - cbf ==> 0.9, - sslim-rmse ==> 1.0, - als-mf ==> 0.3
+metrics ==>  precision=0.093256; recall=0.197389; map=0.108171
+------------------------------------------------
+HYBRID RECOMMENDER configuration 4:
+date  ==>  2018-12-10 16:45:55.727474
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.9, - sslim-rmse ==> 1.0, - als-mf ==> 0.3
+metrics ==>  precision=0.101409; recall=0.214491; map=0.119870
+------------------------------------------------
+HYBRID RECOMMENDER configuration 5:
+date  ==>  2018-12-10 16:56:02.296828
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.9, - sslim-rmse ==> 1.0, - als-mf ==> 0.345
+metrics ==>  precision=0.101423; recall=0.214486; map=0.119927
+------------------------------------------------
+HYBRID RECOMMENDER configuration 6:
+date  ==>  2018-12-10 17:04:23.330877
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.9, - sslim-rmse ==> 1.0, - als-mf ==> 0.4
+metrics ==>  precision=0.101511; recall=0.214511; map=0.119870
+------------------------------------------------
+HYBRID RECOMMENDER configuration 7:
+date  ==>  2018-12-10 17:13:32.138856
+model :- item-based CF ==> 1.0, - user-based CF ==> None, - cbf ==> 0.9, - sslim-rmse ==> 1.0, - als-mf ==> 0.345
+metrics ==>  precision=0.094596; recall=0.202058; map=0.110808
+------------------------------------------------
+HYBRID RECOMMENDER configuration 8:
+date  ==>  2018-12-10 17:21:50.695548
+model :- item-based CF ==> 0.5, - user-based CF ==> None, - cbf ==> 0.9, - sslim-rmse ==> 1.0, - als-mf ==> 0.345
+metrics ==>  precision=0.097697; recall=0.208291; map=0.114792
+------------------------------------------------
+HYBRID RECOMMENDER configuration 9:
+date  ==>  2018-12-10 22:16:46.921759
+model :- item-based CF ==> 0.2, - user-based CF ==> None, - cbf ==> 0.9, - sslim-rmse ==> 1.0, - als-mf ==> 0.345
+metrics ==>  precision=0.100402; recall=0.212797; map=0.118561
+------------------------------------------------
+HYBRID RECOMMENDER configuration 10:
+date  ==>  2018-12-10 22:27:52.042179
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 1.0, - sslim-rmse ==> 1.0, - als-mf ==> 0.345
+metrics ==>  precision=0.101382; recall=0.214394; map=0.119981
+------------------------------------------------
+HYBRID RECOMMENDER configuration 11:
+date  ==>  2018-12-10 22:37:52.904095
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.95, - sslim-rmse ==> 1.0, - als-mf ==> 0.345
+metrics ==>  precision=0.101437; recall=0.214561; map=0.119968
+------------------------------------------------
+HYBRID RECOMMENDER configuration 0:
+date  ==>  2018-12-11 11:29:42.022417
+model :- item-based CF ==> None, - user-based CF ==> 0.83, - cbf ==> 0.83, - sslim-rmse ==> 1.0, - als-mf ==> 0.345
+metrics ==>  precision=0.093444; recall=0.196027; map=0.107380
+------------------------------------------------
+HYBRID RECOMMENDER configuration 1:
+date  ==>  2018-12-11 11:43:24.256143
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 1.0, - sslim-rmse ==> 1.0, - als-mf ==> 0.345
+metrics ==>  precision=0.101822; recall=0.215145; map=0.120123
+------------------------------------------------
+HYBRID RECOMMENDER configuration 0:
+date  ==>  2018-12-11 23:48:36.497647
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 1.0, - slim-rmse ==> 1.0, - als-mf ==> 0.2
+metrics ==>  precision=0.101013; recall=0.213465; map=0.119607
+------------------------------------------------
+HYBRID RECOMMENDER configuration 1:
+date  ==>  2018-12-11 23:58:14.489605
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 1.0, - slim-rmse ==> 1.0, - als-mf ==> 0.3
+metrics ==>  precision=0.101475; recall=0.214166; map=0.120119
+------------------------------------------------
+HYBRID RECOMMENDER configuration 2:
+date  ==>  2018-12-12 00:07:55.975677
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 1.0, - slim-rmse ==> 1.0, - als-mf ==> 0.345
+metrics ==>  precision=0.101493; recall=0.214251; map=0.120149
+------------------------------------------------
+HYBRID RECOMMENDER configuration 3:
+date  ==>  2018-12-12 00:17:36.382388
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 1.0, - slim-rmse ==> 1.0, - als-mf ==> 0.5
+metrics ==>  precision=0.101376; recall=0.214193; map=0.119930
+------------------------------------------------
+HYBRID RECOMMENDER configuration 4:
+date  ==>  2018-12-12 00:27:17.684549
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 1.0, - slim-rmse ==> 1.0, - als-mf ==> 0.8
+metrics ==>  precision=0.100466; recall=0.212431; map=0.118453
+------------------------------------------------
+HYBRID RECOMMENDER configuration 0:
+date  ==>  2018-12-12 11:30:00.996232
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.1, - slim-rmse ==> 1.0, - als-mf ==> 0.1
+metrics ==>  precision=0.100664; recall=0.212012; map=0.118356
+------------------------------------------------
+HYBRID RECOMMENDER configuration 1:
+date  ==>  2018-12-12 11:37:43.019927
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.2, - slim-rmse ==> 1.0, - als-mf ==> 0.1
+metrics ==>  precision=0.100815; recall=0.212468; map=0.118512
+------------------------------------------------
+HYBRID RECOMMENDER configuration 2:
+date  ==>  2018-12-12 11:45:24.833942
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.4, - slim-rmse ==> 1.0, - als-mf ==> 0.1
+metrics ==>  precision=0.100793; recall=0.212480; map=0.118867
+------------------------------------------------
+HYBRID RECOMMENDER configuration 3:
+date  ==>  2018-12-12 11:53:06.646718
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.6, - slim-rmse ==> 1.0, - als-mf ==> 0.1
+metrics ==>  precision=0.100666; recall=0.212277; map=0.118917
+------------------------------------------------
+HYBRID RECOMMENDER configuration 4:
+date  ==>  2018-12-12 12:00:48.685972
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - als-mf ==> 0.1
+metrics ==>  precision=0.100480; recall=0.212212; map=0.118912
+------------------------------------------------
+HYBRID RECOMMENDER configuration 5:
+date  ==>  2018-12-12 12:08:30.621337
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.9, - slim-rmse ==> 1.0, - als-mf ==> 0.1
+metrics ==>  precision=0.100367; recall=0.212028; map=0.118842
+------------------------------------------------
+HYBRID RECOMMENDER configuration 6:
+date  ==>  2018-12-12 12:16:12.516408
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 1.0, - slim-rmse ==> 1.0, - als-mf ==> 0.1
+metrics ==>  precision=0.100224; recall=0.211931; map=0.118744
+------------------------------------------------
+HYBRID RECOMMENDER configuration 7:
+date  ==>  2018-12-12 12:23:54.279611
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.1, - slim-rmse ==> 1.0, - als-mf ==> 0.2
+metrics ==>  precision=0.101417; recall=0.213559; map=0.119200
+------------------------------------------------
+HYBRID RECOMMENDER configuration 8:
+date  ==>  2018-12-12 12:31:36.160443
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.2, - slim-rmse ==> 1.0, - als-mf ==> 0.2
+metrics ==>  precision=0.101518; recall=0.213682; map=0.119397
+------------------------------------------------
+HYBRID RECOMMENDER configuration 9:
+date  ==>  2018-12-12 12:39:17.784799
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.4, - slim-rmse ==> 1.0, - als-mf ==> 0.2
+metrics ==>  precision=0.101643; recall=0.214126; map=0.119698
+------------------------------------------------
+HYBRID RECOMMENDER configuration 10:
+date  ==>  2018-12-12 12:46:59.457719
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.6, - slim-rmse ==> 1.0, - als-mf ==> 0.2
+metrics ==>  precision=0.101689; recall=0.214317; map=0.119851
+------------------------------------------------
+HYBRID RECOMMENDER configuration 11:
+date  ==>  2018-12-12 12:54:41.345128
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - als-mf ==> 0.2
+metrics ==>  precision=0.101536; recall=0.213988; map=0.119928
+------------------------------------------------
+HYBRID RECOMMENDER configuration 12:
+date  ==>  2018-12-12 13:02:23.067780
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.9, - slim-rmse ==> 1.0, - als-mf ==> 0.2
+metrics ==>  precision=0.101453; recall=0.213850; map=0.119983
+------------------------------------------------
+HYBRID RECOMMENDER configuration 13:
+date  ==>  2018-12-12 13:10:04.757770
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 1.0, - slim-rmse ==> 1.0, - als-mf ==> 0.2
+metrics ==>  precision=0.101346; recall=0.213689; map=0.119908
+------------------------------------------------
+HYBRID RECOMMENDER configuration 14:
+date  ==>  2018-12-12 13:17:46.201581
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.1, - slim-rmse ==> 1.0, - als-mf ==> 0.345
+metrics ==>  precision=0.101665; recall=0.214192; map=0.119535
+------------------------------------------------
+HYBRID RECOMMENDER configuration 15:
+date  ==>  2018-12-12 13:25:28.085648
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.2, - slim-rmse ==> 1.0, - als-mf ==> 0.345
+metrics ==>  precision=0.101733; recall=0.214391; map=0.119784
+------------------------------------------------
+HYBRID RECOMMENDER configuration 16:
+date  ==>  2018-12-12 13:33:10.026404
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.4, - slim-rmse ==> 1.0, - als-mf ==> 0.345
+metrics ==>  precision=0.101883; recall=0.214882; map=0.120111
+------------------------------------------------
+HYBRID RECOMMENDER configuration 17:
+date  ==>  2018-12-12 13:40:51.776980
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.6, - slim-rmse ==> 1.0, - als-mf ==> 0.345
+metrics ==>  precision=0.101984; recall=0.214954; map=0.120293
+------------------------------------------------
+HYBRID RECOMMENDER configuration 18:
+date  ==>  2018-12-12 13:48:33.423658
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - als-mf ==> 0.345
+metrics ==>  precision=0.101998; recall=0.215048; map=0.120334
+------------------------------------------------
+HYBRID RECOMMENDER configuration 19:
+date  ==>  2018-12-12 13:56:15.007669
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.9, - slim-rmse ==> 1.0, - als-mf ==> 0.345
+metrics ==>  precision=0.101909; recall=0.214868; map=0.120306
+------------------------------------------------
+HYBRID RECOMMENDER configuration 20:
+date  ==>  2018-12-12 14:03:56.935917
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 1.0, - slim-rmse ==> 1.0, - als-mf ==> 0.345
+metrics ==>  precision=0.101848; recall=0.214845; map=0.120311
+------------------------------------------------
+HYBRID RECOMMENDER configuration 21:
+date  ==>  2018-12-12 14:11:38.644877
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.1, - slim-rmse ==> 1.0, - als-mf ==> 0.5
+metrics ==>  precision=0.101417; recall=0.213948; map=0.119111
+------------------------------------------------
+HYBRID RECOMMENDER configuration 22:
+date  ==>  2018-12-12 14:19:20.402825
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.2, - slim-rmse ==> 1.0, - als-mf ==> 0.5
+metrics ==>  precision=0.101526; recall=0.214177; map=0.119342
+------------------------------------------------
+HYBRID RECOMMENDER configuration 23:
+date  ==>  2018-12-12 14:27:02.095102
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.4, - slim-rmse ==> 1.0, - als-mf ==> 0.5
+metrics ==>  precision=0.101717; recall=0.214462; map=0.119711
+------------------------------------------------
+HYBRID RECOMMENDER configuration 24:
+date  ==>  2018-12-12 14:34:44.110231
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.6, - slim-rmse ==> 1.0, - als-mf ==> 0.5
+metrics ==>  precision=0.101665; recall=0.214356; map=0.119861
+------------------------------------------------
+HYBRID RECOMMENDER configuration 25:
+date  ==>  2018-12-12 14:42:25.727413
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - als-mf ==> 0.5
+metrics ==>  precision=0.101715; recall=0.214631; map=0.119993
+------------------------------------------------
+HYBRID RECOMMENDER configuration 26:
+date  ==>  2018-12-12 14:50:07.201428
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.9, - slim-rmse ==> 1.0, - als-mf ==> 0.5
+metrics ==>  precision=0.101731; recall=0.214561; map=0.120056
+------------------------------------------------
+HYBRID RECOMMENDER configuration 27:
+date  ==>  2018-12-12 14:57:48.754380
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 1.0, - slim-rmse ==> 1.0, - als-mf ==> 0.5
+metrics ==>  precision=0.101677; recall=0.214402; map=0.120082
+------------------------------------------------
+HYBRID RECOMMENDER configuration 28:
+date  ==>  2018-12-12 15:05:30.337810
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.1, - slim-rmse ==> 1.0, - als-mf ==> 0.7
+metrics ==>  precision=0.100690; recall=0.212585; map=0.118175
+------------------------------------------------
+HYBRID RECOMMENDER configuration 29:
+date  ==>  2018-12-12 15:13:12.097084
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.2, - slim-rmse ==> 1.0, - als-mf ==> 0.7
+metrics ==>  precision=0.100789; recall=0.212833; map=0.118330
+------------------------------------------------
+HYBRID RECOMMENDER configuration 30:
+date  ==>  2018-12-12 15:20:53.880007
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.4, - slim-rmse ==> 1.0, - als-mf ==> 0.7
+metrics ==>  precision=0.101055; recall=0.213401; map=0.118743
+------------------------------------------------
+HYBRID RECOMMENDER configuration 31:
+date  ==>  2018-12-12 15:28:35.511175
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.6, - slim-rmse ==> 1.0, - als-mf ==> 0.7
+metrics ==>  precision=0.101120; recall=0.213468; map=0.118996
+------------------------------------------------
+HYBRID RECOMMENDER configuration 32:
+date  ==>  2018-12-12 15:36:17.207183
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - als-mf ==> 0.7
+metrics ==>  precision=0.101279; recall=0.213773; map=0.119210
+------------------------------------------------
+HYBRID RECOMMENDER configuration 33:
+date  ==>  2018-12-12 15:43:58.993581
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.9, - slim-rmse ==> 1.0, - als-mf ==> 0.7
+metrics ==>  precision=0.101290; recall=0.213875; map=0.119326
+------------------------------------------------
+HYBRID RECOMMENDER configuration 34:
+date  ==>  2018-12-12 15:51:40.612198
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 1.0, - slim-rmse ==> 1.0, - als-mf ==> 0.7
+metrics ==>  precision=0.101304; recall=0.213830; map=0.119445
+------------------------------------------------
+HYBRID RECOMMENDER configuration 35:
+date  ==>  2018-12-12 15:59:22.341967
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.1, - slim-rmse ==> 1.0, - als-mf ==> 0.9
+metrics ==>  precision=0.099943; recall=0.211338; map=0.117230
+------------------------------------------------
+HYBRID RECOMMENDER configuration 36:
+date  ==>  2018-12-12 16:07:04.210652
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.2, - slim-rmse ==> 1.0, - als-mf ==> 0.9
+metrics ==>  precision=0.100103; recall=0.211652; map=0.117469
+------------------------------------------------
+HYBRID RECOMMENDER configuration 37:
+date  ==>  2018-12-12 16:14:45.976109
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.4, - slim-rmse ==> 1.0, - als-mf ==> 0.9
+metrics ==>  precision=0.100278; recall=0.211930; map=0.117772
+------------------------------------------------
+HYBRID RECOMMENDER configuration 38:
+date  ==>  2018-12-12 16:22:27.600023
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.6, - slim-rmse ==> 1.0, - als-mf ==> 0.9
+metrics ==>  precision=0.100392; recall=0.212206; map=0.118114
+------------------------------------------------
+HYBRID RECOMMENDER configuration 39:
+date  ==>  2018-12-12 16:30:09.314907
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - als-mf ==> 0.9
+metrics ==>  precision=0.100541; recall=0.212440; map=0.118396
+------------------------------------------------
+HYBRID RECOMMENDER configuration 40:
+date  ==>  2018-12-12 16:37:50.937299
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.9, - slim-rmse ==> 1.0, - als-mf ==> 0.9
+metrics ==>  precision=0.100579; recall=0.212510; map=0.118455
+------------------------------------------------
+HYBRID RECOMMENDER configuration 41:
+date  ==>  2018-12-12 16:45:32.643622
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 1.0, - slim-rmse ==> 1.0, - als-mf ==> 0.9
+metrics ==>  precision=0.100595; recall=0.212614; map=0.118528
+------------------------------------------------
+HYBRID RECOMMENDER configuration 42:
+date  ==>  2018-12-12 16:53:14.466627
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.1, - slim-rmse ==> 1.0, - als-mf ==> 1.0
+metrics ==>  precision=0.099598; recall=0.210629; map=0.116741
+------------------------------------------------
+HYBRID RECOMMENDER configuration 43:
+date  ==>  2018-12-12 17:00:56.168903
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.2, - slim-rmse ==> 1.0, - als-mf ==> 1.0
+metrics ==>  precision=0.099707; recall=0.210808; map=0.116989
+------------------------------------------------
+HYBRID RECOMMENDER configuration 44:
+date  ==>  2018-12-12 17:08:37.673100
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.4, - slim-rmse ==> 1.0, - als-mf ==> 1.0
+metrics ==>  precision=0.099944; recall=0.211337; map=0.117371
+------------------------------------------------
+HYBRID RECOMMENDER configuration 45:
+date  ==>  2018-12-12 17:16:18.401806
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.6, - slim-rmse ==> 1.0, - als-mf ==> 1.0
+metrics ==>  precision=0.100113; recall=0.211597; map=0.117613
+------------------------------------------------
+HYBRID RECOMMENDER configuration 46:
+date  ==>  2018-12-12 17:23:59.269202
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - als-mf ==> 1.0
+metrics ==>  precision=0.100315; recall=0.211999; map=0.117923
+------------------------------------------------
+HYBRID RECOMMENDER configuration 47:
+date  ==>  2018-12-12 17:31:39.812981
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.9, - slim-rmse ==> 1.0, - als-mf ==> 1.0
+metrics ==>  precision=0.100323; recall=0.211963; map=0.118059
+------------------------------------------------
+HYBRID RECOMMENDER configuration 48:
+date  ==>  2018-12-12 17:39:20.753900
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 1.0, - slim-rmse ==> 1.0, - als-mf ==> 1.0
+metrics ==>  precision=0.100309; recall=0.211926; map=0.118098
+------------------------------------------------
+HYBRID RECOMMENDER configuration 0:
+date  ==>  2018-12-14 11:04:25.371554
+model :- item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - als-mf ==> 0.345
+metrics ==>  precision=0.018899; recall=0.036405; map=0.017782
+------------------------------------------------
+HYBRID RECOMMENDER configuration 0:
+date  ==>  2018-12-14 11:16:56.122805
+model :- k = 200, - item-based CF ==> 1.0, - user-based CF ==> None, - cbf ==> None, - slim-rmse ==> None, - als-mf ==> None
+metrics ==>  precision=0.087139; recall=0.185650; map=0.099499
+------------------------------------------------
+HYBRID RECOMMENDER configuration 0:
+date  ==>  2018-12-14 11:16:56.122805
+model :- k = 200, - item-based CF ==> 1.0, - user-based CF ==> None, - cbf ==> None, - slim-rmse ==> None, - als-mf ==> None
+metrics ==>  precision=0.087139; recall=0.185650; map=0.099499
+------------------------------------------------
+metrics ==>  precision=0.082857; recall=0.179540; map=0.096530
+------------------------------------------------
+HYBRID RECOMMENDER configuration 0:
+date  ==>  2018-12-14 11:16:56.122805
+model :- k = 200, - item-based CF ==> 1.0, - user-based CF ==> None, - cbf ==> None, - slim-rmse ==> None, - als-mf ==> None
+metrics ==>  precision=0.087139; recall=0.185650; map=0.099499
+------------------------------------------------
+metrics ==>  precision=0.082857; recall=0.179540; map=0.096530
+------------------------------------------------
+metrics ==>  precision=0.082857; recall=0.179540; map=0.096530
+------------------------------------------------
+HYBRID RECOMMENDER configuration 0:
+date  ==>  2018-12-14 11:16:56.122805
+model :- k = 200, - item-based CF ==> 1.0, - user-based CF ==> None, - cbf ==> None, - slim-rmse ==> None, - als-mf ==> None
+metrics ==>  precision=0.087139; recall=0.185650; map=0.099499
+------------------------------------------------
+metrics ==>  precision=0.082857; recall=0.179540; map=0.096530
+------------------------------------------------
+metrics ==>  precision=0.082857; recall=0.179540; map=0.096530
+------------------------------------------------
+metrics ==>  precision=0.087123; recall=0.185622; map=0.099487
+------------------------------------------------
+HYBRID RECOMMENDER configuration 0:
+date  ==>  2018-12-14 11:36:35.490908
+model :- k = 50, - item-based CF ==> 1.0, - user-based CF ==> None, - cbf ==> None, - slim-rmse ==> None, - als-mf ==> None
+metrics ==>  precision=0.086241; recall=0.184588; map=0.098689
+------------------------------------------------
+HYBRID RECOMMENDER configuration 0:
+date  ==>  2018-12-14 11:36:35.490908
+model :- k = 50, - item-based CF ==> 1.0, - user-based CF ==> None, - cbf ==> None, - slim-rmse ==> None, - als-mf ==> None
+metrics ==>  precision=0.086241; recall=0.184588; map=0.098689
+------------------------------------------------
+metrics ==>  precision=0.060530; recall=0.139459; map=0.082625
+------------------------------------------------
+HYBRID RECOMMENDER configuration 0:
+date  ==>  2018-12-14 14:19:19.821330
+model :- k = 100, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - als-mf ==> 0.345
+metrics ==>  precision=0.101051; recall=0.213853; map=0.119554
+------------------------------------------------
+HYBRID RECOMMENDER configuration 0:
+date  ==>  2018-12-14 14:19:19.821330
+model :- k = 100, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - als-mf ==> 0.345
+metrics ==>  precision=0.101051; recall=0.213853; map=0.119554
+------------------------------------------------
+metrics ==>  precision=0.101532; recall=0.214759; map=0.119972
+------------------------------------------------
+HYBRID RECOMMENDER configuration 0:
+date  ==>  2018-12-14 14:19:19.821330
+model :- k = 100, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - als-mf ==> 0.345
+metrics ==>  precision=0.101051; recall=0.213853; map=0.119554
+------------------------------------------------
+metrics ==>  precision=0.101532; recall=0.214759; map=0.119972
+------------------------------------------------
+metrics ==>  precision=0.101507; recall=0.214684; map=0.119933
+------------------------------------------------
+HYBRID RECOMMENDER configuration 0:
+date  ==>  2018-12-14 14:19:19.821330
+model :- k = 100, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - als-mf ==> 0.345
+metrics ==>  precision=0.101051; recall=0.213853; map=0.119554
+------------------------------------------------
+metrics ==>  precision=0.101532; recall=0.214759; map=0.119972
+------------------------------------------------
+metrics ==>  precision=0.101507; recall=0.214684; map=0.119933
+------------------------------------------------
+metrics ==>  precision=0.101505; recall=0.214668; map=0.119910
+------------------------------------------------
+HYBRID RECOMMENDER configuration 0:
+date  ==>  2018-12-14 14:19:19.821330
+model :- k = 100, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - als-mf ==> 0.345
+metrics ==>  precision=0.101051; recall=0.213853; map=0.119554
+------------------------------------------------
+metrics ==>  precision=0.101532; recall=0.214759; map=0.119972
+------------------------------------------------
+metrics ==>  precision=0.101507; recall=0.214684; map=0.119933
+------------------------------------------------
+metrics ==>  precision=0.101505; recall=0.214668; map=0.119910
+------------------------------------------------
+metrics ==>  precision=0.101524; recall=0.214734; map=0.119950
+------------------------------------------------
+HYBRID RECOMMENDER configuration 0:
+date  ==>  2018-12-14 14:19:19.821330
+model :- k = 100, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - als-mf ==> 0.345
+metrics ==>  precision=0.101051; recall=0.213853; map=0.119554
+------------------------------------------------
+metrics ==>  precision=0.101532; recall=0.214759; map=0.119972
+------------------------------------------------
+metrics ==>  precision=0.101507; recall=0.214684; map=0.119933
+------------------------------------------------
+metrics ==>  precision=0.101505; recall=0.214668; map=0.119910
+------------------------------------------------
+metrics ==>  precision=0.101524; recall=0.214734; map=0.119950
+------------------------------------------------
+metrics ==>  precision=0.101526; recall=0.214744; map=0.119952
+------------------------------------------------
+HYBRID RECOMMENDER configuration 0:
+date  ==>  2018-12-14 14:19:19.821330
+model :- k = 100, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - als-mf ==> 0.345
+metrics ==>  precision=0.101051; recall=0.213853; map=0.119554
+------------------------------------------------
+metrics ==>  precision=0.101532; recall=0.214759; map=0.119972
+------------------------------------------------
+metrics ==>  precision=0.101507; recall=0.214684; map=0.119933
+------------------------------------------------
+metrics ==>  precision=0.101505; recall=0.214668; map=0.119910
+------------------------------------------------
+metrics ==>  precision=0.101524; recall=0.214734; map=0.119950
+------------------------------------------------
+metrics ==>  precision=0.101526; recall=0.214744; map=0.119952
+------------------------------------------------
+metrics ==>  precision=0.101526; recall=0.214746; map=0.119956
+------------------------------------------------
+HYBRID RECOMMENDER configuration 0:
+date  ==>  2018-12-14 14:19:19.821330
+model :- k = 100, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - als-mf ==> 0.345
+metrics ==>  precision=0.101051; recall=0.213853; map=0.119554
+------------------------------------------------
+metrics ==>  precision=0.101532; recall=0.214759; map=0.119972
+------------------------------------------------
+metrics ==>  precision=0.101507; recall=0.214684; map=0.119933
+------------------------------------------------
+metrics ==>  precision=0.101505; recall=0.214668; map=0.119910
+------------------------------------------------
+metrics ==>  precision=0.101524; recall=0.214734; map=0.119950
+------------------------------------------------
+metrics ==>  precision=0.101526; recall=0.214744; map=0.119952
+------------------------------------------------
+metrics ==>  precision=0.101526; recall=0.214746; map=0.119956
+------------------------------------------------
+metrics ==>  precision=0.094907; recall=0.205054; map=0.114767
+------------------------------------------------
+HYBRID RECOMMENDER configuration 0:
+date  ==>  2018-12-14 14:19:19.821330
+model :- k = 100, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - als-mf ==> 0.345
+metrics ==>  precision=0.101051; recall=0.213853; map=0.119554
+------------------------------------------------
+metrics ==>  precision=0.101532; recall=0.214759; map=0.119972
+------------------------------------------------
+metrics ==>  precision=0.101507; recall=0.214684; map=0.119933
+------------------------------------------------
+metrics ==>  precision=0.101505; recall=0.214668; map=0.119910
+------------------------------------------------
+metrics ==>  precision=0.101524; recall=0.214734; map=0.119950
+------------------------------------------------
+metrics ==>  precision=0.101526; recall=0.214744; map=0.119952
+------------------------------------------------
+metrics ==>  precision=0.101526; recall=0.214746; map=0.119956
+------------------------------------------------
+metrics ==>  precision=0.094907; recall=0.205054; map=0.114767
+------------------------------------------------
+metrics ==>  precision=0.099889; recall=0.211664; map=0.118308
+------------------------------------------------
+HYBRID RECOMMENDER configuration 0:
+date  ==>  2018-12-14 19:41:48.363284
+model :- k = 20635, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - als-mf ==> 0.345, - slim-bpr ==> None
+metrics ==>  precision=0.017827; recall=0.036774; map=0.020311
+------------------------------------------------
+HYBRID RECOMMENDER configuration 0:
+date  ==>  2018-12-14 20:57:14.841063
+model :- k = 20635, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - als-mf ==> 0.345, - slim-bpr ==> None
+metrics ==>  precision=0.102430; recall=0.215187; map=0.120925
+------------------------------------------------
+HYBRID RECOMMENDER configuration 1:
+date  ==>  2018-12-14 21:16:44.019052
+model :- k = 20635, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - als-mf ==> 0.345, - slim-bpr ==> 0.1
+metrics ==>  precision=0.102222; recall=0.215387; map=0.120567
+------------------------------------------------
+HYBRID RECOMMENDER configuration 2:
+date  ==>  2018-12-14 21:36:22.646438
+model :- k = 20635, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - als-mf ==> 0.345, - slim-bpr ==> 0.5
+metrics ==>  precision=0.096091; recall=0.204323; map=0.112499
+------------------------------------------------
+HYBRID RECOMMENDER configuration 3:
+date  ==>  2018-12-14 21:54:09.605512
+model :- k = 20635, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - als-mf ==> 0.345, - slim-bpr ==> 0.01
+metrics ==>  precision=0.102650; recall=0.215690; map=0.121153
+------------------------------------------------
+HYBRID RECOMMENDER configuration 4:
+date  ==>  2018-12-14 22:12:39.924857
+model :- k = 20635, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - als-mf ==> 0.345, - slim-bpr ==> 0.015
+metrics ==>  precision=0.102678; recall=0.215721; map=0.121219
+------------------------------------------------
+HYBRID RECOMMENDER configuration 5:
+date  ==>  2018-12-14 22:30:25.349280
+model :- k = 20635, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - als-mf ==> 0.345, - slim-bpr ==> 0.012
+metrics ==>  precision=0.102672; recall=0.215753; map=0.121186
+------------------------------------------------
+HYBRID RECOMMENDER configuration 6:
+date  ==>  2018-12-14 22:48:10.681097
+model :- k = 20635, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - als-mf ==> 0.345, - slim-bpr ==> 0.008
+metrics ==>  precision=0.102595; recall=0.215590; map=0.121153
+------------------------------------------------
+HYBRID RECOMMENDER configuration 6:
+date  ==>  2018-12-14 22:48:10.681097
+model :- k = 20635, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - als-mf ==> 0.345, - slim-bpr ==> 0.008
+metrics ==>  precision=0.102595; recall=0.215590; map=0.121153
+------------------------------------------------
+metrics ==>  precision=0.102577; recall=0.215546; map=0.121140
+------------------------------------------------
+HYBRID RECOMMENDER configuration 8:
+date  ==>  2018-12-14 23:24:17.424075
+model :- k = 20635, - item-based CF ==> 0.8, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - als-mf ==> 0.345, - slim-bpr ==> 0.015
+metrics ==>  precision=0.095445; recall=0.202575; map=0.112261
+------------------------------------------------
+HYBRID RECOMMENDER configuration 0:
+date  ==>  2018-12-26 20:44:11.699815
+model :- k = 20635, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - lfmcf ==> None- als-mf ==> 0.345, - slim-bpr ==> 0.015
+metrics ==>  precision=0.102044; recall=0.214766; map=0.120092
+------------------------------------------------
+HYBRID RECOMMENDER configuration 1:
+date  ==>  2018-12-26 23:10:19.497493
+model :- k = 20635, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - lfmcf ==> 1.0- als-mf ==> 0.345, - slim-bpr ==> 0.015
+metrics ==>  precision=0.085146; recall=0.181491; map=0.097157
+------------------------------------------------
+HYBRID RECOMMENDER configuration 2:
+date  ==>  2018-12-26 23:32:27.216377
+model :- k = 20635, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - lfmcf ==> 0.1- als-mf ==> 0.345, - slim-bpr ==> 0.015
+metrics ==>  precision=0.102002; recall=0.214373; map=0.120119
+------------------------------------------------
+HYBRID RECOMMENDER configuration 3:
+date  ==>  2018-12-26 23:51:33.846569
+model :- k = 20635, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - lfmcf ==> 0.2- als-mf ==> 0.345, - slim-bpr ==> 0.015
+metrics ==>  precision=0.099528; recall=0.210120; map=0.117314
+------------------------------------------------
+HYBRID RECOMMENDER configuration 4:
+date  ==>  2018-12-27 00:10:38.034095
+model :- k = 20635, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - lfmcf ==> 0.25- als-mf ==> 0.345, - slim-bpr ==> 0.015
+metrics ==>  precision=0.098287; recall=0.207916; map=0.115615
+------------------------------------------------
+HYBRID RECOMMENDER configuration 5:
+date  ==>  2018-12-27 00:29:39.367371
+model :- k = 20635, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - lfmcf ==> 0.3- als-mf ==> 0.345, - slim-bpr ==> 0.015
+metrics ==>  precision=0.097048; recall=0.205469; map=0.114034
+------------------------------------------------
+HYBRID RECOMMENDER configuration 6:
+date  ==>  2018-12-27 00:48:40.536925
+model :- k = 20635, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - lfmcf ==> 0.4- als-mf ==> 0.345, - slim-bpr ==> 0.015
+metrics ==>  precision=0.094600; recall=0.200736; map=0.110819
+------------------------------------------------
+HYBRID RECOMMENDER configuration 7:
+date  ==>  2018-12-27 01:07:41.797655
+model :- k = 20635, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - lfmcf ==> 0.45- als-mf ==> 0.345, - slim-bpr ==> 0.015
+metrics ==>  precision=0.093633; recall=0.199086; map=0.109311
+------------------------------------------------
+HYBRID RECOMMENDER configuration 8:
+date  ==>  2018-12-27 01:26:42.811441
+model :- k = 20635, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - lfmcf ==> 0.5- als-mf ==> 0.345, - slim-bpr ==> 0.015
+metrics ==>  precision=0.092590; recall=0.196851; map=0.107825
+------------------------------------------------
+HYBRID RECOMMENDER configuration 9:
+date  ==>  2018-12-27 01:45:43.812516
+model :- k = 20635, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - lfmcf ==> 0.6- als-mf ==> 0.345, - slim-bpr ==> 0.015
+metrics ==>  precision=0.090602; recall=0.192677; map=0.105028
+------------------------------------------------
+HYBRID RECOMMENDER configuration 10:
+date  ==>  2018-12-27 02:04:44.756686
+model :- k = 20635, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - lfmcf ==> 0.65- als-mf ==> 0.345, - slim-bpr ==> 0.015
+metrics ==>  precision=0.089734; recall=0.190948; map=0.103763
+------------------------------------------------
+HYBRID RECOMMENDER configuration 11:
+date  ==>  2018-12-27 02:23:45.903021
+model :- k = 20635, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - lfmcf ==> 0.7- als-mf ==> 0.345, - slim-bpr ==> 0.015
+metrics ==>  precision=0.088891; recall=0.189088; map=0.102576
+------------------------------------------------
+HYBRID RECOMMENDER configuration 12:
+date  ==>  2018-12-27 02:42:47.111975
+model :- k = 20635, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - lfmcf ==> 0.8- als-mf ==> 0.345, - slim-bpr ==> 0.015
+metrics ==>  precision=0.087500; recall=0.186419; map=0.100635
+------------------------------------------------
+HYBRID RECOMMENDER configuration 13:
+date  ==>  2018-12-27 03:01:48.434706
+model :- k = 20635, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - lfmcf ==> 0.85- als-mf ==> 0.345, - slim-bpr ==> 0.015
+metrics ==>  precision=0.086849; recall=0.185122; map=0.099684
+------------------------------------------------
+HYBRID RECOMMENDER configuration 14:
+date  ==>  2018-12-27 03:20:49.662001
+model :- k = 20635, - item-based CF ==> None, - user-based CF ==> None, - cbf ==> 0.8, - slim-rmse ==> 1.0, - lfmcf ==> 0.9- als-mf ==> 0.345, - slim-bpr ==> 0.015
+metrics ==>  precision=0.086292; recall=0.183924; map=0.098771
+------------------------------------------------
