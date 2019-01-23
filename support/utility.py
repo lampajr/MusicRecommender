@@ -8,7 +8,7 @@ import scipy.sparse as sp
 ###############################################
 
 
-def read_data(filename, subfolder='../input/'):
+def read_data(filename, subfolder='/input/'):
 
     """
     Read the csv file given the its path

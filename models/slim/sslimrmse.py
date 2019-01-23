@@ -28,7 +28,8 @@ class SSLIMRMSERecommender(Recommender):
         self.ICM_duration = duration
         self.configuration_txt = "SSLIM RMSE RECOMMENDER SYSTEM"
 
-    def fit(self, alpha=0.0002, l1_ratio=0.029126214, topk=900, positive_only=True):
+    # alpha = 0.0002
+    def fit(self, alpha=0.0005, l1_ratio=0.029126214, topk=900, positive_only=True):
 
         """ Fits the ElasticNet model """
 

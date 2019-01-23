@@ -4,3 +4,4 @@ lightfm
 implicit
 numpy
 scikit-learn
+pandas
