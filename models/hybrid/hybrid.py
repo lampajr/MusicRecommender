@@ -8,13 +8,13 @@ from models.contentbasedfiltering.contentbasedfiltering import CBFRecommender
 from models.matrixfactorization.alsmf import ALSMFRecommender
 from models.slim.slimbpr import SLIMBPRRecommender
 from models.slim.sslimrmse import SSLIMRMSERecommender
+from support.utility import get_tops
 import numpy as np
 
 
 #############################################################################
 ##################### HYBRID RECOMMENDER SYSTEM #############################
 #############################################################################
-from support.utility import get_tops
 
 
 class HybridRecommender(Recommender):

@@ -1,12 +1,9 @@
 import datetime
-import sys
 import time
+
 from models.recommender import Recommender
 from support.cosinesimilarity import CosineSimilarity
-from support.utility import check_matrix
-import scipy.sparse as sp
-import numpy as np
-from sklearn.linear_model import ElasticNet
+
 
 #######################################################################
 ############# CONTENT-BASED FILTERING RECOMMENDER SYSTEM ##############

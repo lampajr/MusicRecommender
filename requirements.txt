@@ -1,3 +1,6 @@
+theano
+scipy
+lightfm
 implicit
 numpy
 scikit-learn
