@@ -111,7 +111,7 @@ class HybridRecommender(Recommender):
 
         #self.set_configuration()
 
-    def set_weights(self, IBCFweight=None, UBCFweight=0.83, LFMCFweight=None, CBFweight=0.83, SSLIMweight=1.0,
+    def set_weights(self, IBCFweight=None, UBCFweight=None, LFMCFweight=None, CBFweight=0.8, SSLIMweight=1.0,
                     ALSweight=0.345, SLIMBPRweight=0.015):
 
         """ Sets the weights for every algorithm involved in the hybrid recommender """
