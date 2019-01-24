@@ -263,8 +263,8 @@ class MatrixFactorizationRecommender(Recommender):
 
     """ ABSTRACT MATRIX FACTORIZATION RECOMMENDER """
 
-    def __init__(self, train, test, validation ,targets, log_filename=None):
-        super(MatrixFactorizationRecommender, self).__init__(train, test, validation, targets, log_filename)
+    def __init__(self, train, test, validation, targets, subfolder="../", log_filename=None):
+        super(MatrixFactorizationRecommender, self).__init__(train, test, validation, targets, subfolder, log_filename)
         self.X = None  # playlist x latent_factors
         self.Y = None  # tracks x latent_factors
 
