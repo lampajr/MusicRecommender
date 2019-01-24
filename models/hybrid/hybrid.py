@@ -72,6 +72,14 @@ class HybridRecommender(Recommender):
             self.ContentBased.fit()
 
 
+        if als:
+            ### ALS Matrix Factorization ###
+            self.ALS = ALSMFRecommender(self.URM_train, self.URM_test,
+                                        self.URM_validation, self.target_playlists, subfolder=None)
+            self.ALS.fit()
+            self.ALS.train()
+
+
         if bpr:
             ### SLIM BPR SGD ###
             self.SLIMBPR = SLIMBPRRecommender(self.URM_train, self.URM_test,
@@ -90,12 +98,6 @@ class HybridRecommender(Recommender):
             self.SSLIM.add_side_information()
             self.SSLIM.train()
 
-        if als:
-            ### ALS Matrix Factorization ###
-            self.ALS = ALSMFRecommender(self.URM_train, self.URM_test,
-                                        self.URM_validation, self.target_playlists, subfolder=None)
-            self.ALS.fit()
-            self.ALS.train()
 
 
     def set_k(self, k):
