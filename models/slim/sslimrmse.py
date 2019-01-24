@@ -84,7 +84,7 @@ class SSLIMRMSERecommender(Recommender):
 
         # iterates over all tracks in the URM and compute the W column for each of them
         # self.n_tracks
-        for track in range(self.n_tracks):
+        for track in range(1):
 
             # consider the current column track as the target for the training problem
             y = A[:, track].toarray()

@@ -56,7 +56,7 @@ class ALSMFRecommender(MatrixFactorizationRecommender):
     def __init__(self, train, test, validation, targets, log_filename='alsmf_config.txt'):
         super(ALSMFRecommender, self).__init__(train, test, validation, targets, log_filename)
 
-    def fit(self, alpha=40, lambda_val=1.8, latent_factors=460, iterations=20):
+    def fit(self, alpha=40, lambda_val=1.8, latent_factors=460, iterations=1):
 
         """ Fits the ALS MF model """
 

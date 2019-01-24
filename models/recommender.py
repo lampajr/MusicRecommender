@@ -35,7 +35,7 @@ class Recommender(object):
 
         # log filename
         self.log_filename = log_filename
-        self.log_subfolder = "/logs/"
+        self.log_subfolder = "logs/"
 
         # configuration description
         self.configuration_txt = "ABSTRACT RECOMMENDER"

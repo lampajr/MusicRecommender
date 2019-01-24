@@ -46,7 +46,7 @@ class SLIMBPRRecommender(Recommender):
 
         return self.URM_train[playlist_id].dot(self.W).toarray().ravel()
 
-    def fit(self, epochs=20, learning_rate=0.05, pos_lambda=0.005, neg_lambda=0.005, topk=200, normalize=False):
+    def fit(self, epochs=1, learning_rate=0.05, pos_lambda=0.005, neg_lambda=0.005, topk=200, normalize=False):
 
         """ Fits a SLIM BPR model using SGD """
 

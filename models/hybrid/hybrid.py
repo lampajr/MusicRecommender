@@ -34,7 +34,7 @@ class HybridRecommender(Recommender):
 
         self.k = None
 
-    def fit(self, k):
+    def fit(self, k=None):
 
         """ Fits all the models """
 
