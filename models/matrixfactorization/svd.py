@@ -14,8 +14,8 @@ class SVDRecommender(MatrixFactorizationRecommender):
 
     N_CONFIG = 0
 
-    def __init__(self, train, test, validation, targets, log_filename='svd_config.txt'):
-        super(SVDRecommender, self).__init__(train, test, validation, targets, log_filename)
+    def __init__(self, train, test, validation, targets, subfolder="../", log_filename='svd_config.txt'):
+        super(SVDRecommender, self).__init__(train, test, validation, targets, subfolder, log_filename)
 
     def fit(self, latent_factors=460, scipy=True):
 

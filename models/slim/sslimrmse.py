@@ -21,8 +21,8 @@ class SSLIMRMSERecommender(Recommender):
     N_CONFIG = 0
 
     def __init__(self, train ,test, validation, targets, albums=None, artists=None, duration=None,
-                 log_filename="sslimrmse_config.txt"):
-        super(SSLIMRMSERecommender, self).__init__(train, test, validation, targets, log_filename)
+                 subfolder="../", log_filename="sslimrmse_config.txt"):
+        super(SSLIMRMSERecommender, self).__init__(train, test, validation, targets, subfolder, log_filename)
         self.ICM_albums = albums
         self.ICM_artists = artists
         self.ICM_duration = duration

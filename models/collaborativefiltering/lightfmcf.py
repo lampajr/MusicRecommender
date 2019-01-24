@@ -16,8 +16,8 @@ class LightFMRecommender(Recommender):
 
     N_CONFIG = 0
 
-    def __init__(self, train, test, validation, targets, log_filename='lightfmcf_config.txt'):
-        super(LightFMRecommender, self).__init__(train, test, validation, targets, log_filename)
+    def __init__(self, train, test, validation, targets, subfolder="../", log_filename='lightfmcf_config.txt'):
+        super(LightFMRecommender, self).__init__(train, test, validation, targets, subfolder, log_filename)
         self.configuration_txt = "PURE LIGHTFM COLLABORATIVE FILTERING"
 
     def fit(self, item_alpha=1e-5, user_alpha=1e-4, learning_schedule='adadelta', num_components=250, epochs=30, threads=2):

@@ -15,8 +15,8 @@ class UserBasedCFRecommender(Recommender):
 
     N_CONFIG = 0
 
-    def __init__(self, train, test, validation, targets, log_filename='userbasedcf_config.txt'):
-        super(UserBasedCFRecommender, self).__init__(train, test, validation, targets, log_filename)
+    def __init__(self, train, test, validation, targets, subfolder="../", log_filename='userbasedcf_config.txt'):
+        super(UserBasedCFRecommender, self).__init__(train, test, validation, targets, subfolder, log_filename)
         self.configuration_txt = "ITEM-BASED COLLABORATIVE FILTERING"
 
     def fit(self, similarity='asymmetric', topk=50, shrink=7, asymmetric_alpha=0.43, verbose=True):

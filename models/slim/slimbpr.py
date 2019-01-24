@@ -32,8 +32,8 @@ class SLIMBPRRecommender(Recommender):
 
     N_CONFIG = 0
 
-    def __init__(self, train, test, validation, targets, log_filename='slimbpr_config.txt'):
-        super(SLIMBPRRecommender, self).__init__(train, test, validation, targets, log_filename)
+    def __init__(self, train, test, validation, targets, subfolder="../", log_filename='slimbpr_config.txt'):
+        super(SLIMBPRRecommender, self).__init__(train, test, validation, targets, subfolder, log_filename)
         self.configuration_txt = "SLIM BPR RECOMMENDER SYSTEM"
 
         self.BPR_sampling = BPRSampling(data=self.URM_train)
@@ -46,7 +46,7 @@ class SLIMBPRRecommender(Recommender):
 
         return self.URM_train[playlist_id].dot(self.W).toarray().ravel()
 
-    def fit(self, epochs=1, learning_rate=0.05, pos_lambda=0.005, neg_lambda=0.005, topk=200, normalize=False):
+    def fit(self, epochs=20, learning_rate=0.05, pos_lambda=0.005, neg_lambda=0.005, topk=200, normalize=False):
 
         """ Fits a SLIM BPR model using SGD """
 
@@ -163,8 +163,8 @@ class SLIMBPRTheanoRecommender(Recommender):
 
     N_CONFIG = 0
 
-    def __init__(self, train, test, validation, targets, log_filename='slimbprtheano_config.txt'):
-        super(SLIMBPRTheanoRecommender, self).__init__(train, test, validation, targets, log_filename)
+    def __init__(self, train, test, validation, targets, subfolder="../", log_filename='slimbprtheano_config.txt'):
+        super(SLIMBPRTheanoRecommender, self).__init__(train, test, validation, targets, subfolder, log_filename)
         self.configuration_txt = "SLIM BPR THEANO RECOMMENDER SYSTEM"
 
         self.BPR_sampling = BPRSampling(data=self.URM_train)

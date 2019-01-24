@@ -10,9 +10,10 @@ class Dataset(object):
 
     """ DATASET class """
 
-    def __init__(self, split_traintestvalidation=(0.8, 0.2, 0.0), verbose=True):
+    def __init__(self, split_traintestvalidation=(0.8, 0.2, 0.0), subfolder="../input/", verbose=True):
         super(Dataset, self).__init__()
         self.verbose = verbose
+        self.subfolder = subfolder
         self.split_traintestvalidation = split_traintestvalidation
         self.URM_train = None
         self.URM_test = None
@@ -32,7 +33,7 @@ class Dataset(object):
     def _load_URM(self):
 
         # load the train data
-        train = read_data(filename='train.csv')
+        train = read_data(filename='train.csv', subfolder=self.subfolder)
 
         # create the mask for splitting the train set in 3 subsets
 
@@ -61,7 +62,7 @@ class Dataset(object):
     def _load_ICM(self):
 
         # load dataset
-        tracks = read_data(filename='tracks.csv')
+        tracks = read_data(filename='tracks.csv', subfolder=self.subfolder)
 
         # generate the sparse matrices
         self.ICM_albums = create_sparse(data=tracks, row='track_id', col='album_id')
@@ -71,7 +72,7 @@ class Dataset(object):
     def _load_targets(self):
 
         # load the target playlists set
-        target_playlist = read_data(filename='target_playlists.csv')
+        target_playlist = read_data(filename='target_playlists.csv', subfolder=self.subfolder)
 
         # generate the np.array of the targets
         self.target_playlists = np.array(target_playlist['playlist_id'])

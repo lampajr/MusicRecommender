@@ -6,7 +6,7 @@ if __name__ == '__main__':
     dataset.load_data()
 
     recommender = SLIMBPRRecommender(dataset.URM_train, test=dataset.URM_test,
-                                           validation=None, targets=dataset.target_playlists)
+                                     validation=None, targets=dataset.target_playlists)
     recommender.fit()
     recommender.train()
     recommender.evaluate()

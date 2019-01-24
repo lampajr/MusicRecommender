@@ -12,7 +12,7 @@ class Recommender(object):
 
     """ ABSTRACT RECOMMENDER """
 
-    def __init__(self, train, test, validation, targets, log_filename=None):
+    def __init__(self, train, test, validation, targets, subfolder="../", log_filename=None):
         super(Recommender, self).__init__()
         # URMs
         self.URM_train = train
@@ -35,7 +35,7 @@ class Recommender(object):
 
         # log filename
         self.log_filename = log_filename
-        self.log_subfolder = "logs/"
+        self.log_subfolder = "logs/" if subfolder is None else subfolder + "logs/"
 
         # configuration description
         self.configuration_txt = "ABSTRACT RECOMMENDER"
@@ -176,6 +176,7 @@ class Recommender(object):
         """ Logs information about the current recommender into a txt file """
 
         pathname = self.log_subfolder + self.log_filename
+
         if verbose:
             print('Saving current configuration at {}'.format(pathname))
         with open(pathname, 'a') as f:

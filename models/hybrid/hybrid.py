@@ -24,8 +24,8 @@ class HybridRecommender(Recommender):
     N_CONFIG = 0
 
     def __init__(self, train, test, validation, targets, albums, artists, duration,
-                 log_filename='hybrid_config.txt'):
-        super(HybridRecommender, self).__init__(train, test, validation, targets, log_filename)
+                 subfolder="../", log_filename='hybrid_config.txt'):
+        super(HybridRecommender, self).__init__(train, test, validation, targets, subfolder, log_filename)
         self.ICM_albums = albums
         self.ICM_artists = artists
         self.ICM_duration = duration

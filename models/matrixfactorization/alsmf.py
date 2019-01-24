@@ -53,10 +53,10 @@ class ALSMFRecommender(MatrixFactorizationRecommender):
 
     N_CONFIG = 0
 
-    def __init__(self, train, test, validation, targets, log_filename='alsmf_config.txt'):
-        super(ALSMFRecommender, self).__init__(train, test, validation, targets, log_filename)
+    def __init__(self, train, test, validation, targets, subfolder="../", log_filename='alsmf_config.txt'):
+        super(ALSMFRecommender, self).__init__(train, test, validation, targets, subfolder, log_filename)
 
-    def fit(self, alpha=40, lambda_val=1.8, latent_factors=460, iterations=1):
+    def fit(self, alpha=40, lambda_val=1.8, latent_factors=460, iterations=20):
 
         """ Fits the ALS MF model """
 
@@ -121,8 +121,8 @@ class ImplicitALSRecommender(ALSMFRecommender):
 
     """ ALS implementation using the implicit library """
 
-    def __init__(self, train ,test, validation, targets, log_filename='implicitalsmf_config.txt'):
-        super(ImplicitALSRecommender, self).__init__(train, test, validation, targets, log_filename)
+    def __init__(self, train ,test, validation, targets, subfolder="../", log_filename='implicitalsmf_config.txt'):
+        super(ImplicitALSRecommender, self).__init__(train, test, validation, targets, subfolder, log_filename)
         self.model = None
 
     def train(self, model_name='als', verbose=True):
