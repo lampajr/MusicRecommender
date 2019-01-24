@@ -34,6 +34,7 @@ class Recommender(object):
         self.W = None
 
         # log filename
+        self.subfolder = subfolder
         self.log_filename = log_filename
         self.log_subfolder = "logs/" if subfolder is None else subfolder + "logs/"
 
