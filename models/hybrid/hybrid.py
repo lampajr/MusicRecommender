@@ -41,45 +41,51 @@ class HybridRecommender(Recommender):
         self.set_k(k=k)  # number of tracks to keep during algorithms merging
 
         ### LIGHTFM CF ###
-        self.LFMCF = LightFMRecommender(self.URM_train, self.URM_test,
-                                        self.URM_validation, self.target_playlists)
-        self.LFMCF.fit()
-        self.LFMCF.train()
+        #self.LFMCF = LightFMRecommender(self.URM_train, self.URM_test,
+         #                               self.URM_validation, self.target_playlists, subfolder=None)
+        #self.LFMCF.fit()
+        #self.LFMCF.train()
 
-        ### SLIM BPR SGD ###
-        self.SLIMBPR = SLIMBPRRecommender(self.URM_train, self.URM_test,
-                                          self.URM_validation, self.target_playlists)
-        self.SLIMBPR.fit()
-        self.SLIMBPR.train()
 
         ### Item-based collaborative filtering ###
         self.ItemBased = ItemBasedCFRecommender(self.URM_train, self.URM_test,
-                                                self.URM_validation, self.target_playlists)
+                                                self.URM_validation, self.target_playlists,
+                                                subfolder=None)
         self.ItemBased.fit()
 
         ### User-based collaborative filtering ###
         self.UserBased = UserBasedCFRecommender(self.URM_train, self.URM_test,
-                                                self.URM_validation, self.target_playlists)
+                                                self.URM_validation, self.target_playlists,
+                                                subfolder=None)
         self.UserBased.fit()
 
 
         ### Content-based filtering ###
         self.ContentBased = CBFRecommender(self.URM_train, self.URM_test, self.URM_validation,
                                            self.target_playlists, self.ICM_albums, self.ICM_artists,
-                                           self.ICM_duration)
+                                           self.ICM_duration, subfolder=None)
         self.ContentBased.fit()
+
+
+        ### SLIM BPR SGD ###
+        self.SLIMBPR = SLIMBPRRecommender(self.URM_train, self.URM_test,
+                                          self.URM_validation, self.target_playlists,
+                                          subfolder=None)
+        self.SLIMBPR.fit()
+        self.SLIMBPR.train()
+
 
         ### SSLIM RMSE ###
         self.SSLIM = SSLIMRMSERecommender(self.URM_train, self.URM_test, self.URM_validation,
                                           self.target_playlists, self.ICM_albums, self.ICM_artists,
-                                          self.ICM_duration)
+                                          self.ICM_duration, subfolder=None)
         self.SSLIM.fit()
         self.SSLIM.add_side_information()
         self.SSLIM.train()
 
         ### ALS Matrix Factorization ###
         self.ALS = ALSMFRecommender(self.URM_train, self.URM_test,
-                                    self.URM_validation, self.target_playlists)
+                                    self.URM_validation, self.target_playlists, subfolder=None)
         self.ALS.fit()
         self.ALS.train()
 

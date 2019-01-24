@@ -18,7 +18,7 @@ class CBFRecommender(Recommender):
 
     N_CONFIG = 0
 
-    def __init__(self, train, test, validation, targets, subfolder="../", albums=None, artists=None, duration=None,
+    def __init__(self, train, test, validation, targets, albums=None, artists=None, duration=None, subfolder="../",
                  log_filename="cbf_config.txt"):
         super(CBFRecommender, self).__init__(train, test, validation, targets, subfolder, log_filename)
         self.ICM_albums = albums
