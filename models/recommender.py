@@ -183,7 +183,9 @@ class Recommender(object):
         with open(pathname, 'a') as f:
             f.write(self.configuration_txt)
 
+
     ######## PRIVATE METHODS #########
+
 
     def __evaluate_playlist(self, playlist_id, recommended_items, set='test'):
 
@@ -255,9 +257,12 @@ class Recommender(object):
         return self.predicted_URM
 
 
+
 ##########################################################
 ####### ABSTRACT MATRIX FACTORIZATION RECOMMENDER ########
 ##########################################################
+
+
 
 class MatrixFactorizationRecommender(Recommender):
 

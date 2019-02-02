@@ -34,9 +34,19 @@ class HybridRecommender(Recommender):
 
         self.k = None
 
-    def fit(self, k=None, light=False, item=True, user=True, content=True, rmse=True, bpr=True, als=True):
+    def fit(self, k=None, light=False, item=False, user=True, content=True, rmse=True, bpr=True, als=True):
 
-        """ Fits all the models """
+        """
+        Fits all the models for which the corresponding boolean is true
+        :param k: represent the number of top ratings to consider during the aggregation, if None consider all ratings.
+        :param light: if true compute light cf model, skip it otherwise.
+        :param item: if true compute item-based cf model, skip it otherwise.
+        :param user: if true compute user-based cf model, skip it otherwise.
+        :param content: if true compute content-based model, skip it otherwise.
+        :param rmse: if true compute sslim rmse model, skip it otherwise.
+        :param bpr: if true compute slim bpr model, skip it otherwise.
+        :param als: if true compute als mf model, skip it otherwise.
+        """
 
         self.set_k(k=k)  # number of tracks to keep during algorithms merging
 
@@ -109,9 +119,8 @@ class HybridRecommender(Recommender):
         else:
             self.k = k
 
-        #self.set_configuration()
 
-    def set_weights(self, IBCFweight=None, UBCFweight=None, LFMCFweight=None, CBFweight=0.8, SSLIMweight=1.0,
+    def set_weights(self, IBCFweight=None, UBCFweight=0.0415, LFMCFweight=None, CBFweight=0.83, SSLIMweight=1.0,
                     ALSweight=0.345, SLIMBPRweight=0.015):
 
         """ Sets the weights for every algorithm involved in the hybrid recommender """
